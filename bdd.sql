@@ -72,7 +72,7 @@ CREATE TABLE IF NOT EXISTS tracker_timeline(
     tracker_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     watering VARCHAR(50) NOT NULL,
     id_plant INT NOT NULL,
-    CONSTRAINT fk_tracker_plant FOREIGN KEY(id_plant) REFERENCES plants(id_plant)
+    CONSTRAINT fk_tracker_timeline_plant FOREIGN KEY(id_plant) REFERENCES plants(id_plant)
 )ENGINE=InnoDB;
 
 DELIMITER $$

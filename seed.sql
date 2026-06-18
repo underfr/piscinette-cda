@@ -52,7 +52,7 @@ INSERT INTO private_message (id_private_message, message, created_at, id_sender,
 (7, 'Oui je recommande le substrat spécial orchidées avec des éclats de bois.', '2024-04-22 10:15:00', 3, 5, 4),
 (8, 'Super idée le pot transparent pour vérifier les racines !', '2024-04-22 14:00:00', 5, 3, 4),
 (9, 'Lucas, ton basilic a survécu à l''été dernier ?', '2024-05-10 08:00:00', 6, 4, 5),
-(10, 'Oui超 simple ! Un arrosage quotidien et beaucoup de soleil.', '2024-05-10 09:00:00', 4, 6, 5);
+(10, 'Oui simple ! Un arrosage quotidien et beaucoup de soleil.', '2024-05-10 09:00:00', 4, 6, 5);
 
 -- =====================================================
 -- SECTION 5: PLANTS (8 plantes variées)
@@ -134,7 +134,7 @@ INSERT INTO care (id_care, care_date, height, repotting, fertilization, id_plant
 INSERT INTO hints (id_hint, name, description, link, id_user) VALUES
 (1, 'Arrosage optimal', 'Laissez sécher le terreau entre deux arrosages pour éviter le pourridié.', 'https://conseils-jardinage.fr/arrosage', 1),
 (2, 'Rempotage.printemps', 'Le meilleur moment pour rempoter est au printemps quand la croissance reprend.', 'https://conseils-jardinage.fr/rempotage', 2),
-(3, 'Engrais.naturel', 'Utilisez du marc de café稀释 comme engrais naturel riche en azote.', 'https://conseils-jardinage.fr/engrais-naturel', 3),
+(3, 'Engrais.naturel', 'Utilisez du marc de café comme engrais naturel riche en azote.', 'https://conseils-jardinage.fr/engrais-naturel', 3),
 (4, 'Humidité.plantes', 'Groupez vos plantes pour créer un microclimat humide naturellement.', 'https://conseils-jardinage.fr/humidite', 4),
 (5, 'Taille.facil', 'Taillez toujours avec des outils propres et désinfectés.', 'https://conseils-jardinage.fr/taille', 5),
 (6, 'Lumière.adaptée', 'Observez les signes de votre plante : feuilles qui jaunissent indiquent souvent trop ou pas assez de lumière.', 'https://conseils-jardinage.fr/lumiere', 6);
@@ -183,7 +183,7 @@ INSERT INTO forum_comment (id_comment, description, id_user, id_post, created_at
 (12, 'Les coccinelles adorent les pucerons, essaie d''en attirer dans ton jardin.', 3, 6, '2024-06-10 17:00:00'),
 (13, 'Merci pour ces conseils ! Je vais essayer le savon noir ce soir.', 4, 6, '2024-06-10 18:00:00'),
 (14, 'Belle plante ! Les trous vont finir par apparaître avec le temps.', 6, 1, '2024-05-11 09:00:00'),
-(15, 'Un透晒 lumineux aide aussi à accélérer l''apparition des fenestrations.', 5, 1, '2024-05-11 10:00:00');
+(15, 'Un lumineux aide aussi à accélérer l''apparition des fenestrations.', 5, 1, '2024-05-11 10:00:00');
 
 -- =====================================================
 -- SECTION 13: FORUM_REVIEW (8 avis - rating DECIMAL(2,1))
